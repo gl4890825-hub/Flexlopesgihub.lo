@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>SA-MP Server App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header class="top">
+  <div>
+    <h1>⚡ STAR ROLEPLAY</h1>
+    <small>Servidor RP Brasil</small>
+  </div>
+  <span class="status online">ONLINE</span>
+</header>
+
+<main>
+  <!-- HOME -->
+  <section id="home" class="page active">
+    <div class="banner">
+      <h2>Bem-vindo ao Star RP</h2>
+      <p>Economia • Eventos • Sistema Exclusivo</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">👑 VIP</div>
+      <div class="card">💰 Moedas</div>
+      <div class="card">🤝 Sócio</div>
+      <div class="card">👤 Contas</div>
+    </div>
+  </section>
+
+  <!-- PAINEL JOGADOR -->
+  <section id="painel" class="page">
+    <h2>🎮 Painel do Jogador</h2>
+    <div class="card info">Nick: Jonas</div>
+    <div class="card info">Level: 15</div>
+    <div class="card info">Dinheiro: $500.000</div>
+  </section>
+
+  <!-- ADMIN -->
+  <section id="admin" class="page">
+    <h2>🛠 Painel Administrativo</h2>
+    <div class="card">Kick Player</div>
+    <div class="card">Ban Player</div>
+    <div class="card">Anunciar Evento</div>
+  </section>
+</main>
+
+<nav class="bottom">
+  <button onclick="abrir('home')"><i class="fa-solid fa-house"></i></button>
+  <button onclick="abrir('painel')"><i class="fa-solid fa-user"></i></button>
+  <button onclick="abrir('admin')"><i class="fa-solid fa-shield-halved"></i></button>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
